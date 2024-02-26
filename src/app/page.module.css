@@ -5,17 +5,19 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  margin: auto;
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  margin: auto;
 }
 
 .description a {
